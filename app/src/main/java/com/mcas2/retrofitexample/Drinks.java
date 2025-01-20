@@ -11,10 +11,10 @@ public class Drinks {
 
     public class Coctail {
         @SerializedName("strDrink")
-        public String name;
+        public String coctailName;
         @SerializedName("strDrinkThumb")
-        public String imageUrl;
+        public String coctailImageUrl;
         @SerializedName("idDrink")
-        public String id;
+        public String coctailId;
     }
 }
